@@ -10,14 +10,14 @@ inoremap <ESC> <Nop>
 " Map <space> to :
 nmap <space> :
 
-<<<<<<< HEAD
-=======
 "--------Folding {{{
 "------------------------------------------------------
 " enable folding; http://vim.wikia.com/wiki/Folding
 set foldmethod=marker
 
-"-------- Visual {{{
+"}}}
+
+"--------Visual {{{
 "------------------------------------------------------
 set expandtab
 
@@ -48,4 +48,3 @@ set cursorline		" Show line highlight
 set colorcolumn=81	" Highlight column 81
 
 "}}}
->>>>>>> aa06d63e716cd78c5bd81111ac2cbc841f749094
