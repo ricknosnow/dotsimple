@@ -1,3 +1,4 @@
+## List of terminal apps
 ncdu : see directory sizes  
 fasd : autojump plus more. must initialize. see man page  
 ranger : file manager  
