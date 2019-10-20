@@ -1,3 +1,4 @@
+" Simple vim config file
 set autoindent
 set textwidth=80 "lines will not be longer than 80 character
 
