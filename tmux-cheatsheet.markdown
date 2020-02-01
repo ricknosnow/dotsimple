@@ -1,3 +1,20 @@
+# Quick most used
+tmux (launches the tmux application)
+tmux new -s session-name (create a new tmux session and name it)
+tmux a (reattach to the last tmux session)
+tmux attach -t session-name (reattach to a specific session)
+ctrl+b c (creates a new window)
+ctrl+b d (detach from tmux session)
+ctrl+b % (split the terminal vertically)
+ctrl+b " (split the terminal horizontally)
+ctrl+b spacebar (auto rearrange panes)
+ctrl+b n (next tmux window)
+ctrl+b arrow key (while holding down control you can use the arrow keys to
+resize a pane)
+ctrl+b z (make a pane go full screen. use ctrl+b z again to return it to it's
+normal size.
+ctrl+b , (rename the current window)
+
 # tmux shortcuts & cheatsheet
 
 start new:
