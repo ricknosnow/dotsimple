@@ -1,4 +1,4 @@
-" Simple vim config file
+" Simple vim config file Rick
 set autoindent
 set textwidth=80 "lines will not be longer than 80 character
 
