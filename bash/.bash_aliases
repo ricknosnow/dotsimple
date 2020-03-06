@@ -14,3 +14,6 @@ alias gh='history|grep' # search bash history
 # Git
 alias gp="git push"
 alias gl="git pull"
+
+# Docker
+alias dc="docker-compose"
