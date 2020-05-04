@@ -1,4 +1,6 @@
 " Simple vim config file Rick
+set noerrorbells
+set smartcase
 set autoindent
 set textwidth=80 "lines will not be longer than 80 character
 
@@ -47,5 +49,10 @@ syntax on			" Enable color syntax
 set cursorline		" Show line highlight
 
 set colorcolumn=81	" Highlight column 81
+
+"}}}
+
+"--------Functionality {{{
+"------------------------------------------------------
 
 "}}}
