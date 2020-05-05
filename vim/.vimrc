@@ -4,6 +4,10 @@ set smartcase
 set autoindent
 set textwidth=80 "lines will not be longer than 80 character
 
+" Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
+" delays and poor user experience.
+set updatetime=50
+
 " Make jk do esc"
 inoremap jk <ESC>
 
@@ -54,5 +58,5 @@ set colorcolumn=81	" Highlight column 81
 
 "--------Functionality {{{
 "------------------------------------------------------
-
+nnoremap <leader>pv :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>
 "}}}
