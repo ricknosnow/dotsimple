@@ -64,3 +64,7 @@ Arch:
 * pacaur
 * packer
 * reflector
+
+Gui:
+-----
+* profile-sync-daemon: loads browser to ram. Read the man page to get working.
