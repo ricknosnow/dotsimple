@@ -5,7 +5,8 @@
 
 
 # You can use the command source ~/.bashrc to reload bash
-alias v="vim"
+# alias v="vim"
+alias v='f -e vim' # quick opening files with vim
 
 alias lt='ls --human-readable --size -l -S --classify' # sort ls by size
 alias mnt="mount | awk -F' ' '{ printf \"%s\t%s\n\",\$1,\$3; }' | column -t |
