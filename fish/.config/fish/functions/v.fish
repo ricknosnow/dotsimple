@@ -1,3 +1,3 @@
 function v
-        vim $argv;
+        f -e vim # quick opening files with vim $argv;
 end
