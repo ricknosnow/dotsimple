@@ -19,10 +19,13 @@ set smartcase
 set incsearch       " While typing a search command, show immediately where the
                     " so far typed pattern matches.
 set colorcolumn=81	" Highlight column 81
-
+set wildmenu
 
 "---------------Mappings-----------------------------
 let mapleader = " "
+
+" Easy saves
+noremap <Leader>s :update<CR>
 
 " Make jk do esc"
 inoremap jk <ESC>
