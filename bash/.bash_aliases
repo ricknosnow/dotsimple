@@ -18,3 +18,7 @@ alias gl="git pull"
 
 # Docker
 alias dc="docker-compose"
+
+# Tmux
+alias t="tmux"
+alias ta="tmux a"
