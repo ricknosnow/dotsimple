@@ -9,8 +9,8 @@ CTRL-ww = Switch windows
 :tabedit - open a file in a tab
 gt - go to next tab
 gT - go to previous tab
-2gt - go to second tak
-
+2gt - go to second tab
+       
 
 ### Explorer
 :Lex - open explorer on right and keep open
