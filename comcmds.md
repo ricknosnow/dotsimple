@@ -21,6 +21,12 @@ nc -vl 44444 | tar zxv
 Sender
 tar czp /path/to/directory/to/send | nc -N 10.11.12.10 44444
 
+Using pv
+Sender
+tar -zcf - debian-10.0.0-amd64-xfce-CD-1.iso  | pv | nc -l -p 3000 -q 5
+Receiver
+nc 192.168.1.4 3000 | pv | tar -zxf -
+
 ### LVM
 Resize logical ext4 volume  
 `sudo lvresize -L +10G --resizefs ubuntu-vg/ubuntu-lv`
