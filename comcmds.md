@@ -1,3 +1,7 @@
+### NMAP
+sudo nmap -sn 192.168.1.0/24
+sudo nmap -sP 192.168.0.1/24 | less
+
 ### LVM
 Resize logical ext4 volume  
 `sudo lvresize -L +10G --resizefs ubuntu-vg/ubuntu-lv`
