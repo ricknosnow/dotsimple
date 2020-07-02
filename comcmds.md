@@ -2,6 +2,25 @@
 sudo nmap -sn 192.168.1.0/24
 sudo nmap -sP 192.168.0.1/24 | less
 
+### Netstat File Copy
+sudo apt install netcat-openbsd
+Reciever
+nc -vl 44444 > pick_desired_name_for_received_file
+Sender
+nc -N 10.11.12.10 44444 < /path/to/file/you/want/to/send
+
+Optimize
+Receiver
+nc -vl 44444 | gunzip > pick_desired_name_for_file
+Sender
+gzip -c /path/to/file/you/want/to/send | nc -N 10.11.12.10 44444
+
+Folders
+Receiver
+nc -vl 44444 | tar zxv
+Sender
+tar czp /path/to/directory/to/send | nc -N 10.11.12.10 44444
+
 ### LVM
 Resize logical ext4 volume  
 `sudo lvresize -L +10G --resizefs ubuntu-vg/ubuntu-lv`
