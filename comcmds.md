@@ -4,6 +4,7 @@ sudo nmap -sP 192.168.0.1/24 | less
 
 ### Netstat File Copy
 sudo apt install netcat-openbsd
+* If you get a name resolution failure try adding -n
 Reciever
 nc -vl 44444 > pick_desired_name_for_received_file
 Sender
