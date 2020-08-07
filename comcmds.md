@@ -35,6 +35,11 @@ Resize logical ext4 volume
 ### Rsync
 Rsync over ssh  
 `rsync -a DestinationLinux rick@groot:/media/storage01/video/`
+-CHutzPah
+or
+-azvhe
+v = verbose
+a = archive 
 
 ### Bash
 CTRL+K - Delete all characters after cursor
