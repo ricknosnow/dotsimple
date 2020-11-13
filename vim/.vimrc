@@ -14,6 +14,7 @@ set shiftwidth=4    " Number of spaces to use for each step of (auto)indent
 set expandtab
 set smartindent
 set number          " Show line numbers.
+set relativenumber  " Show relative numbers
 set nowrap
 set smartcase
 set incsearch       " While typing a search command, show immediately where the
@@ -64,10 +65,6 @@ set foldmethod=marker
 set autoindent
 set scrolloff=8
 
-
-
-set relativenumber  " Show relative numbers
-
 set showmatch       " When a bracket is inserted, briefly jump to the matching
                     " one. The jump is only done if the match can be seen on the
                     " screen. The time to show the match can be set with
@@ -75,11 +72,8 @@ set showmatch       " When a bracket is inserted, briefly jump to the matching
 set hlsearch        " When there is a previous search pattern, highlight all
                     " its matches.
  
- 
 set ignorecase      " Ignore case in search patterns.
 
-
 set cursorline		" Show line highlight
-
 
 set textwidth=80    "lines will not be longer than 80 character
